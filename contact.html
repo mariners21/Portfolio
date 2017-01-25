@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #62A8AC;
+      padding: 25px;
+    }
+
+    .jumbotron {
+      background-image: url("images/photographer.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 25% 25%;
+      width: 1150px;
+      height: 500px;
+      
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<div class="jumbotron">
+    <div class="container text-left-center">
+    <h1 style="color: darkgoldenrod">Contact me!</h1>      
+    <p style="color:darkgoldenrod">Have an interest in my work?</p><p style="color: darkgoldenrod"> If so, then scroll 
+        down to find my contact information!</p>
+  </div>
+</div>
+</div>
+
+<table style="width:100%">
+  <tr>
+  <th><img src="images/email.jpg"> </th>
+    <th>Email</th> 
+    <th>example@example.com</th>
+  </tr>
+  <tr>
+    <td><img src="images/facebook.jpg" style="height: 120px"></td>
+    <td>Facebook</td>
+    <td>Your Facebook link here</td>
+  </tr>
+  <tr>
+    <td><img src="images/twitter.jpg" style="height: 120px"></td>
+    <td>Twitter</td>
+    <td>Your Twitter Link here</td>
+  </tr>
+</table>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
